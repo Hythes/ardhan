@@ -7,9 +7,9 @@ $banner = "\e[36;1m
 /_/  /_/_/_//_/_/\__/\___/\_,_/\__/ 
                                     
 [+] myIM3 sms spammer [+]
-Author : Mr.A'initial_22
-Instagram :  presensi_22
+Author : Mr.A'initial_22 
 Team   : voltHz Team
+Github : https://github.com/Hythes/
 \e[36;1m======================================\n";
 sleep(3);
 echo $banner;
@@ -44,8 +44,7 @@ $h = curl_exec($g);
 curl_close($g);
 preg_match("/challengeId/i", $h, $respon);
 if ($respon[0] == "challengeId") {
-	echo $i. ".Skidipapap Despacita 
-skuy !!!\n";
+	echo $i. ".Gass Terus Cok !!!\n";
 	}else{
 		echo $i. ".Gagal 
 bangsat:(\n";
